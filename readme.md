@@ -167,3 +167,4 @@ I can't compile this using gcc so I'm going to have to use the CS50 IDE to compl
 
 filter:
 	clang -fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -Qunused-arguments -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow -o filter filter.c helpers.c
+set up ssl for ubuntu migration on 22.05.20
